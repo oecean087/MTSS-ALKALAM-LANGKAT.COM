@@ -113,7 +113,90 @@ body{
     margin: 10px auto 40px;
     border-radius: 5px;
 }
+   .pendidik-section {
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 50px;
+        }
 
+        .grid-guru {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .card-guru {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            text-align: left;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 440px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card-guru:hover {
+            transform: translateY(-5px);
+        }
+
+        .foto-wrapper {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px dotted; #0a5305;
+            flex-shrink: 0;
+        }
+
+        .foto-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .info-guru {
+            flex-grow: 1;
+        }
+
+        .nama-tag {
+            background-color: #eba500;
+            color: #ffffff;
+            font-weight: 700;
+            padding: 6px 12px;
+            font-size: 14px;
+            display: inline-block;
+            border-radius: 4px;
+            margin-bottom: 6px;
+        }
+
+        .nik-text {
+            color: #7f8c8d;
+            font-size: 12px;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .kontak-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #0a5305;
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 4px;
+        }
+
+        .kontak-item i {
+            color: #eba500;
+            font-size: 14px;
+        }
+      
 /* Footer */
 
 .footer{
@@ -335,7 +418,106 @@ KEPALA MTSS AL KALAM LANGKAT
 </div>
 
 </section>
+<section class="section" id="pendidik" style="background: white; padding: 50px 0;">
+    <div class="container">
+        
+        <div class="text-center">
+            <h2 class="section-title">Daftar Tenaga Pendidik</h2>
+            <div class="title-divider"></div>
+        </div>
 
+        <!-- Kontainer khusus untuk scroll horizontal -->
+        <div class="scroll-wrapper" style="overflow-x: auto; white-space: nowrap; padding-bottom: 15px; -webkit-overflow-scrolling: touch;">
+            <div style="display: inline-flex; gap: 30px; padding: 10px;">
+                
+                <!-- Guru 1 -->
+                <div class="card-guru" style="display: flex; align-items: center; gap: 20px; background: #fff; padding: 15px; border-radius: 8px; width: 400px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); white-space: normal; flex-shrink: 0;">
+                    <div class="foto-wrapper" style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; border: 3px solid #e0e0e0; flex-shrink: 0;">
+                        <img src="image/02.png" alt="Foto Liwanna" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="info-guru" style="flex-grow: 1;">
+                        <div class="nama-tag" style="background-color: #eba500; color: white; font-weight: bold; padding: 4px 10px; font-size: 13px; display: inline-block; border-radius: 4px; margin-bottom: 6px;">
+                            xxxxxxx S.Pd
+                        </div>
+                        <div class="nik-text" style="color: #7f8c8d; font-size: 12px; margin-bottom: 4px;">(NIK :)</div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+                            <span>Nomor telepon 081397532151</span>
+                        </div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+                            <span>-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guru 2 -->
+                <div class="card-guru" style="display: flex; align-items: center; gap: 20px; background: #fff; padding: 15px; border-radius: 8px; width: 400px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); white-space: normal; flex-shrink: 0;">
+                    <div class="foto-wrapper" style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; border: 3px solid #a3e4d7; flex-shrink: 0;">
+                        <img src="image/02.png" alt="Foto Selvi" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="info-guru" style="flex-grow: 1;">
+                        <div class="nama-tag" style="background-color: #eba500; color: white; font-weight: bold; padding: 4px 10px; font-size: 13px; display: inline-block; border-radius: 4px; margin-bottom: 6px;">
+                            xxxxxxxx, S.Pd
+                        </div>
+                        <div class="nik-text" style="color: #7f8c8d; font-size: 12px; margin-bottom: 4px;">(NIK :)</div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+                            <span>Nomor telepon 081370...</span>
+                        </div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+                            <span>-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kamu bisa tambah Kartu Guru 3, 4, dst. di bawah sini -->
+
+                 <div class="card-guru" style="display: flex; align-items: center; gap: 20px; background: #fff; padding: 15px; border-radius: 8px; width: 400px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); white-space: normal; flex-shrink: 0;">
+                    <div class="foto-wrapper" style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; border: 3px solid #a3e4d7; flex-shrink: 0;">
+                        <img src="image/02.png" alt="Foto Selvi" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="info-guru" style="flex-grow: 1;">
+                        <div class="nama-tag" style="background-color: #eba500; color: white; font-weight: bold; padding: 4px 10px; font-size: 13px; display: inline-block; border-radius: 4px; margin-bottom: 6px;">
+                            xxxxxx, S.Pd
+                        </div>
+                        <div class="nik-text" style="color: #7f8c8d; font-size: 12px; margin-bottom: 4px;">(NIK :)</div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+                            <span>Nomor telepon 081370...</span>
+                        </div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+                            <span>-</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="card-guru" style="display: flex; align-items: center; gap: 20px; background: #fff; padding: 15px; border-radius: 8px; width: 400px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); white-space: normal; flex-shrink: 0;">
+                    <div class="foto-wrapper" style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; border: 3px solid #a3e4d7; flex-shrink: 0;">
+                        <img src="image/02.png" alt="Foto Selvi" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="info-guru" style="flex-grow: 1;">
+                        <div class="nama-tag" style="background-color: #eba500; color: white; font-weight: bold; padding: 4px 10px; font-size: 13px; display: inline-block; border-radius: 4px; margin-bottom: 6px;">
+                            xxxxxxxxx, S.Pd
+                        </div>
+                        <div class="nik-text" style="color: #7f8c8d; font-size: 12px; margin-bottom: 4px;">(NIK :)</div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-phone" style="margin-right: 5px;"></i>
+                            <span>Nomor telepon 081370...</span>
+                        </div>
+                        <div class="kontak-item" style="color: #0a5305; font-size: 13px; font-weight: 600; margin-top: 2px;">
+                            <i class="fa-solid fa-envelope" style="margin-right: 5px;"></i>
+                            <span>-</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Footer -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
